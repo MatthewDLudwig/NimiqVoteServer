@@ -27,7 +27,8 @@ const fs = require('fs');
 				{ id : "D", name : "Squidward" },
 				{ id : "E", name : "Mr. Krabs" },
 				{ id : "F", name : "Gary" },
-				{ id : "G", name : "Plankton" }
+				{ id : "G", name : "Plankton" },
+				{ id : "K", name : "KOOLAID MAIN" }
 			]
 		};
 // SETTINGS YOU CAN CHANGE ARE ABOVE
