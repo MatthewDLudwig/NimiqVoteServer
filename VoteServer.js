@@ -9,26 +9,25 @@ const fs = require('fs');
 		let keyRoot = "";
 		let port = 8080;
 		let allowedHosts = [
-			"nim.drawpad.org"
+			"localhost:8080",
+			"nim.drawpad.org",
+			"old.drawpad.org:8080"
 		];
 
 		let config = {
-			startBlock : 631136,
-			endBlock   : 640000,
-			voteAddress : generateAddress("TESTVOTE"),
-//			voteAddress : "NQ07 0000 0000 0000 0000 0000 0000 0000 0000",
-//			voteAddress : "NQ34 D8JU TVBX L9XS 109H LAMV JUCV 1UH7 RMXT",
-			numChoices : 2,
-			prompt : "Who is your favorite SpongeBob character?",
+			startBlock : 656000,
+			endBlock   : 679000,
+			voteAddress : generateAddress("VOTETERM0002"),
+			numChoices : 3,
+			prompt : "Vote for Community Funding Board Representatives",
 			options : [
-				{ id : "A", name : "SpongeBob" },
-				{ id : "B", name : "Patrick" },
-				{ id : "C", name : "Sandy" },
-				{ id : "D", name : "Squidward" },
-				{ id : "E", name : "Mr. Krabs" },
-				{ id : "F", name : "Gary" },
-				{ id : "G", name : "Plankton" },
-				{ id : "K", name : "KOOLAID MAIN" }
+				{ id : "A", name : "LTD" },
+				{ id : "B", name : "Wekkel" },
+				{ id : "C", name : "Mat" },
+				{ id : "D", name : "Sharms" },
+				{ id : "E", name : "SirChef" },
+				{ id : "F", name : "Chugwig" },
+				{ id : "G", name : "Smitop" }
 			]
 		};
 // SETTINGS YOU CAN CHANGE ARE ABOVE
